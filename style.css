@@ -1,0 +1,209 @@
+.body {
+    background-color: #0b1622;
+    font-family: roboto;
+    margin: 0px;
+}
+
+.bruh {
+    background-color: #0b1622;
+}
+
+.header {
+
+    display: flex;
+    color: white;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+    width: auto;
+    height: 20px;
+    font-size: 9px;
+
+}
+
+.link {
+    display: flex;
+    gap: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: small;
+}
+
+.intro {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; 
+    justify-content: space-evenly;
+    padding: 20px;
+    max-width: 100%;
+    height: auto;
+}
+
+.content {
+    background-color: #151f2e;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 450px;
+    flex: 1; 
+    margin-right: 10px;
+    color: aliceblue;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    
+}
+
+.heading {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.text {
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+
+.cityIMG {
+    max-width: 100%;
+    height: auto; 
+    align-self: center;
+
+}
+
+
+.random {
+    display: flex;
+    background-color: #0b1622;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    max-width: auto; 
+}
+
+.heading1 {
+    color: white;
+}
+
+.illustration{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    padding: 20px;
+    max-width: auto;
+    flex: 1;
+    color: aliceblue;
+    
+}
+
+.ilst1, .ilst2, .ilst3, .ilst4 {
+    
+    background-color: #151f2e;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 200px;
+    flex: 1; 
+    color: aliceblue;
+    margin-top: 10px;
+
+}
+
+
+.ilst1, .ilst2, .ilst3  {
+    margin-right: -20px;
+}
+
+
+.quote {
+    display: flex;
+    background-color: #151f2e;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+}
+
+.hanekawa, .spike{
+
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #3d3446;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 350px;
+    flex: 1;
+    color: aliceblue;
+    margin: 10px;
+    justify-content: center;
+    flex-direction: row-reverse
+    
+    
+}
+
+.quote-image, .quote-image2 {
+    margin-left: 20px;
+    border-radius: 50%; 
+    width: 100px;
+    height: 100px; 
+    object-fit: cover; 
+    margin-left: 20px;
+}
+
+.signUp {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #11161d;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: auto;
+    flex: 1;
+    color: aliceblue;
+    justify-content: center;
+    
+    
+}
+
+.heading2 {
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.sign {
+
+    display: flex;
+    margin-top: -35px;
+    justify-content: space-between;
+}
+
+
+.button {
+  background-color: transparent;
+  border: 1px solid #f8f9fa;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-family: arial,sans-serif;
+  font-size: 15px;
+  height: 36px;
+  padding: 0 16px;
+  text-align: center;
+  font-weight: 400;
+}
+
+.button:hover {
+  border-color: #dadce0;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 1px 1px;
+  color: #37adf2;
+}
